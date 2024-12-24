@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+section {
+    min-height: 100vh;
+    background-color: rgba(12, 11, 11, 1);
+    font-family: "Poppins", serif;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.gap-106 {
+    gap: 106px;
+}
+
+.gap-123 {
+    gap: 123px;
+}
+
+
+
+.main-heading {
+    line-height: 61.44px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.card {
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%) !important;
+    padding: 16px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(75, 76, 76);
+    margin-bottom: 22px;
+}
+
+
+h4 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.2px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+h6 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    color: rgba(255, 255, 255, 1);
+}
+
+h6:hover {
+    color: rgba(240, 101, 0, 1);
+}
+
+/* container-2 */
+.bg-gray {
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+
+}
+
+.border {
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid rgb(75, 76, 76);
+    backdrop-filter: blur(32px);
+    border-bottom: none;
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+}
+
+
+
+.mt-94 {
+    margin-top: 94px;
+}
+
+.mt-67 {
+    margin-top: 67px;
+}
+
+/* container-3 */
+.w-100 {
+    width: 100%;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: center;
+    border: none;
+    padding: 8px;
+}
+
+th {
+    padding-top: 14px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32.4px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+td:nth-child(1) {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+}
+
+.table-border {
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid rgb(75, 76, 76);
+    backdrop-filter: blur(32px);
+    border-top: none;
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.overflow {
+    overflow: auto;
+}
+
+/* ====responsive== */
+@media (min-width:320px) {}
+
+@media (min-width:576px) {
+    .col-sm-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+
+
+}
+
+@media (min-width:768px) {
+    .pl-157 {
+        padding-left: 157px;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+}
+
+@media (min-width:992px) {
+
+
+    .col-lg-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+
+}
